@@ -6,10 +6,13 @@ from CWM import *
 import time
 import math
 import numpy as np
+import os
 
 methords_num = 6
 test_dir = "./file/test_nums/"
 result_dir = "./file/result/"
+if(not os.path.exists(result_dir)):
+    os.mkdir(result_dir)
 
 
 WM_k = 10
